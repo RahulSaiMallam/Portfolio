@@ -7,6 +7,9 @@ import './App.css';
 import About from './Components/About.js';
 import Blog from './Components/Blog.js';
 import Projects from './Components/Projects.js';
+import homepageImg from './Assets/homepage.png';
+import headerLogo from './Assets/headerLogo.png';
+
 
 function App() {
   $(window).scroll(function() {
@@ -49,19 +52,21 @@ function App() {
   return (
     <div className="portfolioMainDiv">
       <div className="headerDiv">
+        <img className="headerLogo" src={headerLogo} />
         <span onClick={ (e) => home.current?.scrollIntoView({behavior: 'smooth'}) }>Home</span>
         <span onClick={ (e) => projects.current?.scrollIntoView({behavior: 'smooth'}) }>Projects</span>
         <span onClick={ (e) => blog.current?.scrollIntoView({behavior: 'smooth'}) }>Blog</span>
         <span onClick={ (e) => about.current?.scrollIntoView({behavior: 'smooth'}) }>About</span>
       </div>
-      {/* <FadeInSection>
-        <h1 className="portfolioMainHeader" >Design.Development.Branding</h1>
-      </FadeInSection>
-      
-      <FadeInSection>
-        <h1 className="portfolioSecondHeader" >HEADING 2</h1>
-      </FadeInSection> */}
-      <h1 ref={home} className="portfolioMainHeader panel paddingTop45" >Design.Development.Branding</h1>
+
+      <div className="row homePageDiv panel" ref={home} data-color="home">
+          <div className="col homePageTextDiv">
+              <h1 className="portfolioMainHeader  paddingTop45" >Collect.Analyse.Decide</h1>
+          </div>
+          <div className="col homePageImgDiv">
+            <img src={homepageImg} className="img-fluid animated" alt="Commom img"></img>
+          </div>
+      </div>
       
       <Projects refProp={projects} />
 

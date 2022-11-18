@@ -12,7 +12,7 @@ function About(props) {
                 </div>
                 <div className="col">
                     <div className="aboutDesc">
-                        <h1>Hey, it's Rahul.</h1>
+                        <h1>Hey, it's Rahul Mallam.</h1>
                         <p>I attend the University of South Florida as a graduate student. I intend to pursue a data science career. 
                             I have developed a number of projects utilizing a variety of data science and web development concepts. 
                             expert in programming with Python, R, and SQL for more than one year. previously worked at TCS as a 
