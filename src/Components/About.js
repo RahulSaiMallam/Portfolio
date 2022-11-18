@@ -13,9 +13,13 @@ function About(props) {
                 <div className="col">
                     <div className="aboutDesc">
                         <h1>Hey, it's Rahul.</h1>
-                        <p>I work remotely as a freelance data analyst/scientist. I hold a Bachelor's and Master's degree in science (Business Analytics, VU University Amsterdam).</p>
-                        <p>Since I was young, I have always enjoyed to solve puzzles. So that's how I look at big data sets: to me it is one big puzzle I want to solve. Finding patterns nobody else sees is the challenge to me.</p>
-                        <p>Before I started as a freelancer, I had worked for more than eight years as a data analyst in consulting and retail. I have worked for more than 25 companies which gives me the ability to translate complex questions into understandable insights.</p>
+                        <p>I attend the University of South Florida as a graduate student. I intend to pursue a data science career. 
+                            I have developed a number of projects utilizing a variety of data science and web development concepts. 
+                            expert in programming with Python, R, and SQL for more than one year. previously worked at TCS as a 
+                            software engineer for 1 year. I have always been curious about solving problems, and developing and 
+                            designing new projects.
+                        </p>
+                        <p>Are you interested in collaborating? You can contact me at <a className="mailId" href="mailto:rahulsai@usf.edu">rahulsai@usf.edu</a></p>
                     </div>
                 </div>
             </div>

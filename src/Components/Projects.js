@@ -59,9 +59,9 @@ function Projects(props) {
                 </div>
                 <div className="col">
                     <div className="projectDetailsDiv">
-                        <h1>PROJECT 3</h1>
+                        <h1>Loaning during pandemic</h1>
                         <div className="projectHeading">Project 3 details</div>
-                        <a className="projectLink" target="_blank" href="#">
+                        <a className="projectLink" target="_blank" href="https://rahulsai9515.wixsite.com/loaning">
                             <div className="viewProjectDiv">View Project</div>
                         </a>
                     </div>

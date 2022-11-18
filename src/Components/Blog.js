@@ -22,7 +22,7 @@ function Blog(props) {
                 characteristics..... 
             </p>
             <p>
-              <a className="blogLink" target="_blank" href="#">
+              <a className="blogLink" target="_blank" href="https://rahulsai9515.wixsite.com/zoomblog">
                   <div className="visitBlogDiv">Visit full blog here.</div>
               </a>
             </p>

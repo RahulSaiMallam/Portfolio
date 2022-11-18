@@ -213,6 +213,10 @@ body.color-about .headerDiv span:hover{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 100%;
+}
+.aboutDesc h1{
+  margin-bottom: 40px;
 }
 .blogDetailsDiv{
   padding: 0 30px;
@@ -229,4 +233,7 @@ body.color-about .headerDiv span:hover{
 .blogHeading{
   margin-top: 20px;
   margin-bottom: 50px;
+}
+.mailId{
+  text-decoration: none!important;
 }
