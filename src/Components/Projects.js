@@ -39,7 +39,7 @@ function Projects(props) {
                 <div className="col">
                     <div className="projectDetailsDiv">
                         <h1>ANALYSIS AND VISUALIZATION OF INDIAN IMPORTS AND EXPORTS</h1>
-                        <div className="projectHeading">DATA VISUALIZATION PROJECT</div>
+                        <div className="projectHeading">Data visualization project</div>
                         <a className="projectLink" target="_blank" href="https://rahulsai9515.wixsite.com/project1">
                             <div className="viewProjectDiv">View Project</div>
                         </a>
@@ -59,8 +59,8 @@ function Projects(props) {
                 </div>
                 <div className="col">
                     <div className="projectDetailsDiv">
-                        <h1>Loaning during pandemic</h1>
-                        <div className="projectHeading">Project 3 details</div>
+                        <h1>LOANING DURING PANDEMIC</h1>
+                        <div className="projectHeading">Data modeling project</div>
                         <a className="projectLink" target="_blank" href="https://rahulsai9515.wixsite.com/loaning">
                             <div className="viewProjectDiv">View Project</div>
                         </a>

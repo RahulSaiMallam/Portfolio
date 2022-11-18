@@ -236,9 +236,9 @@ body.color-about .headerDiv span:hover{
   margin-bottom: 40px;
 }
 .blogDetailsDiv{
-  padding: 0 30px;
+  padding: 0 170px;
   margin: 0 auto;
-  text-align: left;
+  text-align: center;
 }
 .visitBlogDiv{
   display: inline-block;
