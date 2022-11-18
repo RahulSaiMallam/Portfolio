@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import profilePic from '../Assets/profilePic.png';
-
+ 
 function About(props) {
   return (
     <div ref={props.refProp} className="paddingTop45">
